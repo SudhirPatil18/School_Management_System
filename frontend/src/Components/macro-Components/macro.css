@@ -156,3 +156,56 @@
       display: none;
     }
   }
+
+
+div.main1{
+
+  width: 400px;
+  margin: 100px auto 0px auto;
+  position: absolute;
+  left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+
+  h2{
+    text-align: center;
+    padding: 10px;
+    font-family: sans-serif;
+    text-decoration: solid initial;
+    font-size: 40px;
+    text-shadow: solid 2px #303f9e;
+  }
+
+  div.add{
+
+    background-color: rgb(38, 66, 165);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+    color: #fff;
+
+  }
+
+  form#add{
+
+    margin: 40px;
+  }
+
+  .flex-center-center{
+   display: flex;
+   justify-content:center;
+   align-items: center;
+  }
+  
+  .btn-collection{
+  padding: 10px;
+  border-radius: 10px solid;
+  border-color: blueviolet;
+  gap: 50px;
+  }
+
+
