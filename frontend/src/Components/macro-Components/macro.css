@@ -207,5 +207,43 @@ div.main1{
   border-color: blueviolet;
   gap: 50px;
   }
+  .checkbox-dropdown {
+    position: relative;
+    display: inline-block;
+  }
 
+  .checkbox-dropdown button {
+    background-color: #f6efef;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 350px;
+    margin: 20px;
+  }
+
+  .checkbox-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0e0d0d;
+    border: 1px solid #ccc;
+    border-top: none;
+    min-width: 200px;
+    
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    
+  }
+
+  .checkbox-dropdown-content label {
+    display: block;
+    padding: 10px;
+  }
+
+  .checkbox-dropdown-content label:hover {
+    background-color: #0e0e0e;
+  }
+
+  .checkbox-dropdown:hover .checkbox-dropdown-content {
+    display: block;
+  }
 
