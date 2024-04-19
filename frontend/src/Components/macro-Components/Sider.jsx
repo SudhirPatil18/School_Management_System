@@ -19,7 +19,7 @@ const Sider = ({ pageContent, Comp }) => {
               <i className="lni lni-home"></i>
               <span>Dashboard</span>
             </a>
-          </li>
+          </li> 
           <li>
             <a
               className={location === "/admin/classes" ? "active" : ""}
