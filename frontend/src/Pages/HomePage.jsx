@@ -1,22 +1,24 @@
-import React from 'react'
+import React from 'react';
 import { useNavigate } from "react-router-dom";
+import Header from "./Header";
+import Footer from "./Footer";
+import About from './about';
 
 const HomePage = () => {
+    const navigateTo = useNavigate();
 
-  const navigateTo = useNavigate();
-
-  
-
-  return (
-    <div>HomePage
-
-      <button  onClick={()=>navigateTo("/login")}> Login </button>
-      <button onClick={()=>navigateTo("/register")} > register </button>
-      <button onClick={()=>navigateTo("/admin/dashboard")} > admin dashboard </button>
-      <button onClick={()=>navigateTo("/admin/classes")} > Classes Division </button>
-
-    </div>
-  )
+    return (
+        <div>
+            <Header />
+            <div class="bg-img">
+               
+            </div>
+            
+            <Footer />
+            <About/>
+           
+        </div>
+    );
 }
 
-export default HomePage
+export default HomePage;

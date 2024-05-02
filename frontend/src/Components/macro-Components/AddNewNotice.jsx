@@ -44,6 +44,7 @@ const AddNewNotice = ({ setOpenModel }) => {
              <button type="button" class="btn btn-success" >ADD</button>
              <button type="button" class="btn btn-danger" onClick={() => {setOpenModel(false)}} >CANCLE</button>
          </div>
+         
                 </div>
             </div>
         </>

@@ -1,0 +1,249 @@
+/* sign up */
+body {
+	color: #fff;
+	background: white;
+	font-family: 'Roboto', sans-serif;
+}
+.form-control {
+	height: 41px;
+	background: #f2f2f2;
+	box-shadow: none !important;
+	border: none;
+}
+.form-control:focus {
+	background: #e2e2e2;
+}
+.form-control, .btn {        
+	border-radius: 3px;
+}
+.signup-form {
+	width: 430px;
+	margin: 50px auto;
+}
+.signup-form form {
+	color: #999;
+	border-radius: 3px;
+	margin-bottom: 15px;
+	background: #fff;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	padding: 30px;
+}
+.signup-form h2  {
+	color: #333;
+	font-weight: bold;
+	margin-top: 0;
+}
+.signup-form hr  {
+	margin: 0 -30px 20px;
+}    
+.signup-form .form-group {
+	margin-bottom: 20px;
+}
+.signup-form input[type="checkbox"] {
+	margin-top: 3px;
+}
+.signup-form .row div:first-child {
+	padding-right: 10px;
+}
+.signup-form .row div:last-child {
+	padding-left: 10px;
+}
+.signup-form .btn {        
+	font-size: 16px;
+	font-weight: bold;
+	background: #3598dc;
+	border: none;
+	min-width: 140px;
+}
+.signup-form .btn:hover, .signup-form .btn:focus {
+	background: #2389cd !important;
+	outline: none;
+}
+.signup-form a {
+	color: #fff;
+	text-decoration: underline;
+}
+.signup-form a:hover {
+	text-decoration: none;
+}
+.signup-form form a {
+	color: #3598dc;
+	text-decoration: none;
+}	
+.signup-form form a:hover {
+	text-decoration: underline;
+}
+.signup-form .hint-text  {
+	padding-bottom: 15px;
+	text-align: center;
+}
+/* Responsive Adjustments  */
+  /* Media query for screens smaller than 500px */
+  @media screen and (max-width: 600px) {
+	
+	.signup-form {
+	  width: 90%; /* Adjust form width for smaller screens */
+	}
+  
+	.signup-form form {
+	  padding: 20px; /* Adjust form padding for smaller screens */
+	}
+  
+	.signup-form h2 {
+	  font-size: 20px; /* Decrease heading font size for smaller screens */
+	}
+  
+	.signup-form input[type="checkbox"] {
+	  margin-top: 5px; /* Adjust checkbox margin for smaller screens */
+	}
+  
+	.signup-form .btn {
+	  min-width: 120px; /* Adjust button width for smaller screens */
+	}
+    .login-form {
+        width: 90%; /* Adjust form width for smaller screens */
+        margin: 50px auto; /* Adjust margin for smaller screens */
+      }
+    
+      .login-form form {
+        padding: 20px; /* Adjust form padding for smaller screens */
+      }
+    
+      .login-form h2 {
+        font-size: 20px; /* Decrease heading font size for smaller screens */
+      }
+    
+      .form-control,
+      .btn {
+        min-height: 38px; /* Adjust input height for smaller screens */
+        font-size: 14px; /* Decrease font size for inputs */
+      }
+    
+      .btn {
+        font-size: 14px; /* Decrease font size for buttons */
+      }
+  }
+  /* login */
+b{
+    color: black;
+  }
+  .login-form {
+    width: 410px;
+    margin: 110px auto;
+    font-size: 15px;
+  }
+  .login-form form {
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+  }
+  .login-form h2  {
+    margin: 0 0 15px;
+    color: black;
+  }
+  .form-control, .btn {
+    min-height: 38px;
+    border-radius: 2px;
+  }
+  .btn {        
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+   .btn{
+    display: block;
+   }
+    
+}
+/* Header.css */
+.header1 {
+  background-color:#2563eb;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links li:first-child {
+  margin-left: 0;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn {
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-signin {
+  background-color: #4CAF50; /* Green */
+}
+
+.btn-signup {
+  background-color: #baa000; /* Blue */
+}
+
+.hamburger-menu {
+  display: none; /* Hide by default */
+}
+/* footer css */
+.footer{
+  height: 160px;
+    background-color: #2563eb;
+    color: white;
+}
+.param-links a {
+  /* justify-content: end; */
+  color: white;
+  padding: 10px;
+  margin: 10px;
+}
+.param-links{
+  justify-content: end;
+}
+/* About css */
+
+.bg-img{
+  background-image: url(https://wpschoolpress.com/wp-content/uploads/2023/05/school-manag.png);
+  height: 800px;
+  width: 98%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  margin-bottom: 15px;
+}
